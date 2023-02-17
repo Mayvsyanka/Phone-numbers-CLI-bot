@@ -1,8 +1,5 @@
 phone_list = {}
 
-command_list = ["hello", "add", "change", "phone",
-                "show all", "good bye", "close", "exit"]
-
 
 def input_error(func):
     def inner(phone_list, name_phone):
